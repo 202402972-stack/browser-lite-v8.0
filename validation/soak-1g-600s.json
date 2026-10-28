@@ -1,0 +1,686 @@
+{
+  "requested_seconds": 600,
+  "started_at": 1792947377.455067,
+  "deterministic_inference": true,
+  "samples": [
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 2,
+        "last_check": 1792947391.3469877,
+        "diagnostic": null,
+        "working_set_bytes": 333557760,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 330899456,
+        "reduced_stream_quality": false,
+        "frames_captured": 0,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 0,
+      "elapsed": 13.9
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 5,
+        "last_check": 1792947406.358024,
+        "diagnostic": null,
+        "working_set_bytes": 371585024,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 371585024,
+        "reduced_stream_quality": false,
+        "frames_captured": 14,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 3,
+      "elapsed": 28.9
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 8,
+        "last_check": 1792947421.365164,
+        "diagnostic": null,
+        "working_set_bytes": 383500288,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 388128768,
+        "reduced_stream_quality": false,
+        "frames_captured": 29,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 7,
+      "elapsed": 44.0
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 11,
+        "last_check": 1792947436.3861754,
+        "diagnostic": null,
+        "working_set_bytes": 388608000,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 388608000,
+        "reduced_stream_quality": false,
+        "frames_captured": 43,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 10,
+      "elapsed": 59.0
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 14,
+        "last_check": 1792947451.3999138,
+        "diagnostic": null,
+        "working_set_bytes": 399986688,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 399994880,
+        "reduced_stream_quality": false,
+        "frames_captured": 57,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 14,
+      "elapsed": 74.0
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 17,
+        "last_check": 1792947466.421349,
+        "diagnostic": null,
+        "working_set_bytes": 406294528,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 406294528,
+        "reduced_stream_quality": false,
+        "frames_captured": 71,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 17,
+      "elapsed": 89.0
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 20,
+        "last_check": 1792947481.450293,
+        "diagnostic": null,
+        "working_set_bytes": 418594816,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 418594816,
+        "reduced_stream_quality": false,
+        "frames_captured": 84,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 21,
+      "elapsed": 104.1
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 23,
+        "last_check": 1792947496.4632912,
+        "diagnostic": null,
+        "working_set_bytes": 423813120,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 423817216,
+        "reduced_stream_quality": false,
+        "frames_captured": 98,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 24,
+      "elapsed": 119.1
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 26,
+        "last_check": 1792947511.4841437,
+        "diagnostic": null,
+        "working_set_bytes": 425119744,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 425844736,
+        "reduced_stream_quality": false,
+        "frames_captured": 112,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 28,
+      "elapsed": 134.2
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 29,
+        "last_check": 1792947526.496353,
+        "diagnostic": null,
+        "working_set_bytes": 429527040,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 429670400,
+        "reduced_stream_quality": false,
+        "frames_captured": 126,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 31,
+      "elapsed": 149.2
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 32,
+        "last_check": 1792947541.5176175,
+        "diagnostic": null,
+        "working_set_bytes": 431624192,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 440459264,
+        "reduced_stream_quality": false,
+        "frames_captured": 140,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 35,
+      "elapsed": 164.3
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 35,
+        "last_check": 1792947556.5252998,
+        "diagnostic": null,
+        "working_set_bytes": 432218112,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 440459264,
+        "reduced_stream_quality": false,
+        "frames_captured": 154,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 38,
+      "elapsed": 179.3
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 38,
+        "last_check": 1792947571.5366664,
+        "diagnostic": null,
+        "working_set_bytes": 435515392,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 440459264,
+        "reduced_stream_quality": false,
+        "frames_captured": 168,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 42,
+      "elapsed": 194.3
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 41,
+        "last_check": 1792947586.5435326,
+        "diagnostic": null,
+        "working_set_bytes": 437510144,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 440459264,
+        "reduced_stream_quality": false,
+        "frames_captured": 182,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 45,
+      "elapsed": 209.4
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 44,
+        "last_check": 1792947601.5508528,
+        "diagnostic": null,
+        "working_set_bytes": 441184256,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 441204736,
+        "reduced_stream_quality": false,
+        "frames_captured": 196,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 49,
+      "elapsed": 224.4
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 47,
+        "last_check": 1792947616.5577638,
+        "diagnostic": null,
+        "working_set_bytes": 441839616,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 441864192,
+        "reduced_stream_quality": false,
+        "frames_captured": 210,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 52,
+      "elapsed": 239.4
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 49,
+        "last_check": 1792947626.9689066,
+        "diagnostic": null,
+        "working_set_bytes": 444194816,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 445034496,
+        "reduced_stream_quality": false,
+        "frames_captured": 224,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 56,
+      "elapsed": 254.5
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 52,
+        "last_check": 1792947641.9794393,
+        "diagnostic": null,
+        "working_set_bytes": 445829120,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 457781248,
+        "reduced_stream_quality": false,
+        "frames_captured": 238,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 59,
+      "elapsed": 269.5
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 56,
+        "last_check": 1792947661.9887755,
+        "diagnostic": null,
+        "working_set_bytes": 449527808,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 457781248,
+        "reduced_stream_quality": false,
+        "frames_captured": 252,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 63,
+      "elapsed": 284.5
+    },
+    {
+      "boot": "005c630ed55d467a9a385e121e320902",
+      "runtime": {
+        "checks": 59,
+        "last_check": 1792947676.9998448,
+        "diagnostic": null,
+        "working_set_bytes": 449351680,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 457781248,
+        "reduced_stream_quality": false,
+        "frames_captured": 266,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 66,
+      "elapsed": 299.6
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 0,
+        "last_check": null,
+        "diagnostic": null,
+        "working_set_bytes": 139309056,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 0,
+        "reduced_stream_quality": false,
+        "frames_captured": 0,
+        "closing": false
+      },
+      "status": "starting",
+      "steps": 71,
+      "elapsed": 300.6
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 3,
+        "last_check": 1792947714.3588948,
+        "diagnostic": null,
+        "working_set_bytes": 343715840,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 343715840,
+        "reduced_stream_quality": false,
+        "frames_captured": 11,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 72,
+      "elapsed": 337.1
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 6,
+        "last_check": 1792947729.3660433,
+        "diagnostic": null,
+        "working_set_bytes": 345264128,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 345264128,
+        "reduced_stream_quality": false,
+        "frames_captured": 25,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 75,
+      "elapsed": 352.2
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 9,
+        "last_check": 1792947744.371931,
+        "diagnostic": null,
+        "working_set_bytes": 346910720,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 346910720,
+        "reduced_stream_quality": false,
+        "frames_captured": 40,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 79,
+      "elapsed": 367.2
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 12,
+        "last_check": 1792947759.3802276,
+        "diagnostic": null,
+        "working_set_bytes": 349474816,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 349474816,
+        "reduced_stream_quality": false,
+        "frames_captured": 54,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 83,
+      "elapsed": 382.2
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 15,
+        "last_check": 1792947774.387846,
+        "diagnostic": null,
+        "working_set_bytes": 349970432,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 350003200,
+        "reduced_stream_quality": false,
+        "frames_captured": 69,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 86,
+      "elapsed": 397.2
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 18,
+        "last_check": 1792947789.3957899,
+        "diagnostic": null,
+        "working_set_bytes": 353148928,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 353148928,
+        "reduced_stream_quality": false,
+        "frames_captured": 83,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 90,
+      "elapsed": 412.3
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 21,
+        "last_check": 1792947804.401984,
+        "diagnostic": null,
+        "working_set_bytes": 356032512,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 355250176,
+        "reduced_stream_quality": false,
+        "frames_captured": 98,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 94,
+      "elapsed": 427.3
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 24,
+        "last_check": 1792947819.408352,
+        "diagnostic": null,
+        "working_set_bytes": 359145472,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 359145472,
+        "reduced_stream_quality": false,
+        "frames_captured": 112,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 97,
+      "elapsed": 442.3
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 27,
+        "last_check": 1792947834.4165092,
+        "diagnostic": null,
+        "working_set_bytes": 361328640,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 361512960,
+        "reduced_stream_quality": false,
+        "frames_captured": 127,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 101,
+      "elapsed": 457.4
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 30,
+        "last_check": 1792947849.425143,
+        "diagnostic": null,
+        "working_set_bytes": 363868160,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 363298816,
+        "reduced_stream_quality": false,
+        "frames_captured": 141,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 105,
+      "elapsed": 472.5
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 33,
+        "last_check": 1792947864.432086,
+        "diagnostic": null,
+        "working_set_bytes": 366579712,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 365744128,
+        "reduced_stream_quality": false,
+        "frames_captured": 156,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 108,
+      "elapsed": 487.5
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 36,
+        "last_check": 1792947879.4468973,
+        "diagnostic": null,
+        "working_set_bytes": 369676288,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 369795072,
+        "reduced_stream_quality": false,
+        "frames_captured": 170,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 112,
+      "elapsed": 502.5
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 39,
+        "last_check": 1792947894.4563084,
+        "diagnostic": null,
+        "working_set_bytes": 372260864,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 372183040,
+        "reduced_stream_quality": false,
+        "frames_captured": 185,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 115,
+      "elapsed": 517.5
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 42,
+        "last_check": 1792947909.463403,
+        "diagnostic": null,
+        "working_set_bytes": 374681600,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 374681600,
+        "reduced_stream_quality": false,
+        "frames_captured": 199,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 119,
+      "elapsed": 532.6
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 45,
+        "last_check": 1792947924.4741762,
+        "diagnostic": null,
+        "working_set_bytes": 376684544,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 375828480,
+        "reduced_stream_quality": false,
+        "frames_captured": 214,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 123,
+      "elapsed": 547.6
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 48,
+        "last_check": 1792947939.481369,
+        "diagnostic": null,
+        "working_set_bytes": 379146240,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 379273216,
+        "reduced_stream_quality": false,
+        "frames_captured": 228,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 126,
+      "elapsed": 562.6
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 51,
+        "last_check": 1792947954.4950461,
+        "diagnostic": null,
+        "working_set_bytes": 381616128,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 381616128,
+        "reduced_stream_quality": false,
+        "frames_captured": 242,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 130,
+      "elapsed": 577.6
+    },
+    {
+      "boot": "bfbcf8e27ca840d49ad87c01c9090dbb",
+      "runtime": {
+        "checks": 54,
+        "last_check": 1792947969.5014322,
+        "diagnostic": null,
+        "working_set_bytes": 381894656,
+        "memory_limit_bytes": 1073741824,
+        "peak_sampled_bytes": 381992960,
+        "reduced_stream_quality": false,
+        "frames_captured": 257,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 134,
+      "elapsed": 592.7
+    }
+  ],
+  "frames": [
+    536,
+    536
+  ],
+  "sse_snapshots": 178,
+  "restart_verified": true,
+  "injected_provider_fault": true,
+  "steps_before_restart": 67,
+  "status": "passed",
+  "task_id": "004c3b26584549308cce66888aae2e28",
+  "steps": 137,
+  "archive_events": 551,
+  "reported_tokens": 16320,
+  "unknown_calls": 2,
+  "peak_sampled_mib": 428.7,
+  "elapsed_seconds": 604.7
+}

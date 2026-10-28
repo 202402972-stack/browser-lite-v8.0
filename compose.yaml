@@ -1,0 +1,31 @@
+services:
+  browser-lite:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    env_file: .env
+    volumes:
+      - browser-data:/data
+    restart: unless-stopped
+    stop_grace_period: 45s
+    init: true
+    shm_size: 64mb
+    mem_limit: ${SERVICE_MEMORY_LIMIT:-2g}
+    cpus: 1
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/readyz', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      start_period: 30s
+      retries: 3
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - SETUID
+      - SETGID
+      - KILL
+volumes:
+  browser-data:

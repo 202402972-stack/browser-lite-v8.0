@@ -1,0 +1,56 @@
+/* dot: smoked crystal materials on the warm AMOLED palette. */
+:root {
+  color-scheme: dark;
+  --bg: #000;
+  --text: #e8e2d4;
+  --muted: #bdb6aa;
+  --faint: #aaa398;
+  --accent: #ce785e;
+  --accent-soft: #ce785e14;
+  --line: #ffffff14;
+  --line-strong: #e8e2d42a;
+  --surface-input: #ffffff08;
+  --surface-code: #141210;
+  --surface-solid: #211f1d;
+  /* Backing keeps foreground readable even against a light, moving page. */
+  --glass: linear-gradient(160deg, #ffffff22 0%, #ffffff0b 20%, #ffffff03 52%, #e8e2d40a 100%), linear-gradient(135deg, #252320f8, #0d0c0bfa);
+  --glass-subtle: linear-gradient(160deg, #ffffff16 0%, #ffffff05 36%, #e8e2d408 100%), #100f0ef8;
+  --glass-strong: linear-gradient(155deg, #ffffff24 0%, #ffffff0c 24%, #ffffff04 55%, #e8e2d40b 100%), linear-gradient(140deg, #302e2bf9, #161513fd);
+  --glass-border: #ffffff38;
+  --glass-border-strong: #e8e2d453;
+  --glass-shadow: 0 10px 28px -12px #000d, inset 0 1px #ffffff59, inset 1px 0 #ffffff12, inset -1px 0 #ffffff0c, inset 0 -1px #ffffff12;
+  --glass-shadow-strong: 0 20px 60px -15px #000e, inset 0 1px #ffffff70, inset 1px 0 #ffffff18, inset -1px 0 #ffffff10, inset 0 -1px #ffffff18;
+  --blur: 12px;
+  --blur-strong: 20px;
+  --font: Plex, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --text-xs: 12px;
+  --text-sm: 12px;
+  --text-body: 14px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-panel: 24px;
+  --radius-pill: 999px;
+  --touch: 44px;
+  --header-height: 44px;
+  --content-width: 800px;
+  --duration-fast: 160ms;
+  --duration-enter: 200ms;
+  --ease: cubic-bezier(.2, .8, .2, 1);
+  --z-content: 1;
+  --z-chat: 2;
+  --z-controls: 4;
+  --z-header: 5;
+  --z-popover: 8;
+  --z-toast: 30;
+  --frame-height: 0px;
+  --dock-height: 76px;
+}
+@media (max-width: 600px) { :root { --blur: 10px; --blur-strong: 12px; } }

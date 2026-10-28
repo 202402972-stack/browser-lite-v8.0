@@ -1,0 +1,29 @@
+# v7.1 verification handling and visual model — 2026-10-25
+
+## What was reviewed
+
+Browser-use and Stagehand were downloaded as shallow, unchanged reference checkouts. Exact commits and source links are in SOURCES.md. Browser-use's captcha_solver is an event watchdog for managed-browser solve events; its Cloud documentation requires BROWSER_USE_API_KEY. Stagehand's solveCaptchas/advancedStealth options configure Browserbase sessions. Neither flag supplies a standalone local visual solver. Existing BrowserProfile defaults, including its AutomationControlled setting, were retained; no new stealth package or fingerprint-spoofing layer was added.
+
+## Implemented locally
+
+Visible known widgets are observed with bounded CDP reads. An unambiguous known checkbox gets one native mouse attempt per page/vendor key per task. The observer checks response-field presence or subsequent page-state changes, without returning or persisting response tokens. A disappearance is labeled as disappearance/reinspection, not server acceptance. No token injection, challenge-script modification or external solving service exists in production code.
+
+With images enabled, the configured model can receive the challenge through Browser-use's normal screenshot/DOM pipeline and choose normal browser actions. The route is capped at 12 actions and 180 seconds. Challenge appearance and clearance both invalidate earlier action decisions. Without vision or after bounded failure, the live view continues and manual input is allowed while the agent waits; a blind approve click cannot declare success. Pause/cancel terminates observation. New Z.ai profiles use GLM-4.6V-Flash; existing saved profiles are unchanged. A settings shortcut selects this visual model for explicit test/save. No new dependency or solving service was added.
+
+## Evidence
+
+- **51 automated tests passed**: existing auth/proxy/engine/model checks plus one-attempt behavior, no false completion without observed response, visual-model eligibility/attempt bounds, response-driven continuation, event deduplication, inherited upstream profile defaults, and strict Markdown JSON fence normalization. Arbitrary prose is still rejected.
+- **Local UI fixture passed**: exactly one native click; stable event count while waiting; no success from blind approval; real manual click accepted while waiting; no JavaScript errors or root overflow. Fixture screenshots are labeled as local tests, not real CAPTCHA challenges.
+- **Google official reCAPTCHA v2 TEST key passed**: the actual provider widget loaded in Chromium, one automatic checkbox attempt produced a provider response. **Google explicitly makes this test key always pass. This is not proof of solving production CAPTCHAs or image puzzles.** Its screenshot is preview-google-test-widget.png.
+- **Scripted visual-model integration passed**: actual screenshots reached a deterministic model, which clicked an indexed control in a local fixture, then completed on its second call. This verifies control flow, not real AI accuracy.
+- **Real GLM-4.6V-Flash visual task passed** through the production Z.ai adapter: selected the blue square in an owned local UI fixture, one click, two model steps, observed the page's acceptance message, 26.1 seconds. Screenshot: preview-real-vision-task.png. The fixture is visibly marked NOT a real CAPTCHA; this is not a vendor challenge benchmark. A separate real model call correctly recognized the checked official Google test-widget screenshot. Z.ai currently documents this model as free; no permanent pricing promise is made.
+- **Model-settings UI regression passed**: vision shortcut selects the correct model and image flag, encrypted profile saves without returning the key, proxy settings remain usable, four screen widths and simulated keyboard remain stable, zero JavaScript errors.
+- **Exact application model test passed**: `model_test` returned `ok: true`, `vision_tested: true`, and Chromium `ready` for GLM-4.6V-Flash with the owner's key; the separate structured screenshot response identified the checked box as “I'm not a robot”. No key is included in the package. Optional real-model reproduction: `python tests/real_vision_integration.py` prompts privately for a Z.ai key and writes the local QA report/screenshot under `/tmp/dot-visual-test` (or `TEST_OUTPUT_DIR`). It makes live API calls; provider terms and current pricing apply.
+- Existing Browser-use integration passed: actual DOM/vision, two deterministic calls, live frames, Unicode input, key/click/scroll. Editor repair integration and mobile/desktop regression (360/390/430/1280px, simulated keyboard) passed.
+- **512MiB / no swap / one CPU container**: completed a two-step deterministic website task, three live frames received, no UI errors and zero OOM kills; highest sampled working set **337.1MiB**. This was not a real production CAPTCHA or paid-model benchmark. Pinned dependency image was reused with current source; production dependencies were not upgraded.
+
+## Limits
+
+No universal CAPTCHA bypass, production-vendor success rate, stealth/fingerprint anonymity, invisible CAPTCHA coverage, or acceptance by a target site's server is established. hCaptcha/Turnstile are best-effort detection paths and were not validated against production challenges. Google test mode is deliberately weaker than real challenges. No physical iPhone/Safari, new Railway deployment, paid Cloud account, external solver or long endurance test was used.
+
+The application remains one browser/one task. Existing configuration and data persist without migration. Captcha events appear in the same conversation; a compact strip appears only while verification is active. The strip hides while the typing keyboard is open to preserve space. Browser-use/Stagehand source checkouts live outside the app archive, keeping the deployment package small.

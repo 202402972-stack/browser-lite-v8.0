@@ -1,0 +1,15 @@
+.venv
+.env
+.env.*
+!.env.example
+data
+__pycache__
+.pytest_cache
+.git
+tests
+*.zip
+*.sqlite3*
+*.db
+*.enc
+*.key
+*.log

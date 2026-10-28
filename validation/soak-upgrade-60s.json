@@ -1,0 +1,96 @@
+{
+  "requested_seconds": 60,
+  "started_at": 1793133888.0779946,
+  "deterministic_inference": true,
+  "samples": [
+    {
+      "boot": "2b978e04645342e7b12e982d5c4537aa",
+      "runtime": {
+        "checks": 1,
+        "last_check": 1793133889.6894746,
+        "diagnostic": null,
+        "working_set_bytes": 348692480,
+        "memory_limit_bytes": 2147483648,
+        "peak_sampled_bytes": 299253760,
+        "reduced_stream_quality": false,
+        "frames_captured": 0,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 0,
+      "diagnostics": {
+        "python_rss_bytes": 202555392,
+        "python_fds": 39,
+        "child_processes": 6,
+        "agent_history_items": 0
+      },
+      "elapsed": 0.0
+    },
+    {
+      "boot": "2b978e04645342e7b12e982d5c4537aa",
+      "runtime": {
+        "checks": 4,
+        "last_check": 1793133904.7055788,
+        "diagnostic": null,
+        "working_set_bytes": 349687808,
+        "memory_limit_bytes": 2147483648,
+        "peak_sampled_bytes": 376340480,
+        "reduced_stream_quality": false,
+        "frames_captured": 14,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 3,
+      "diagnostics": {
+        "python_rss_bytes": 206467072,
+        "python_fds": 40,
+        "child_processes": 6,
+        "agent_history_items": 3
+      },
+      "elapsed": 15.1
+    },
+    {
+      "boot": "8f30ffd0e8ac4ba1bef4502777bff68a",
+      "runtime": {
+        "checks": 1,
+        "last_check": 1793133939.7454543,
+        "diagnostic": null,
+        "working_set_bytes": 348504064,
+        "memory_limit_bytes": 2147483648,
+        "peak_sampled_bytes": 348524544,
+        "reduced_stream_quality": false,
+        "frames_captured": 0,
+        "closing": false
+      },
+      "status": "running",
+      "steps": 7,
+      "diagnostics": {
+        "python_rss_bytes": 201658368,
+        "python_fds": 37,
+        "child_processes": 6,
+        "agent_history_items": 0
+      },
+      "elapsed": 30.1
+    }
+  ],
+  "frames": [
+    40,
+    40
+  ],
+  "sse_snapshots": 15,
+  "restart_verified": true,
+  "injected_provider_fault": true,
+  "offline_fixture": true,
+  "setup_seconds": 3.3,
+  "steps_before_restart": 7,
+  "restart_elapsed_seconds": 9.53,
+  "task_elapsed_seconds": 60.4,
+  "status": "passed",
+  "task_id": "ff9722f2f77644e395a7962c996237f1",
+  "steps": 10,
+  "archive_events": 42,
+  "reported_tokens": 1080,
+  "unknown_calls": 2,
+  "peak_sampled_mib": 333.5,
+  "elapsed_seconds": 65.9
+}

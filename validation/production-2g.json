@@ -1,0 +1,12 @@
+{
+  "normal_entrypoint_ready": true,
+  "qa_routes_absent": true,
+  "real_browser_open": true,
+  "memory_limit_bytes": 2147483648,
+  "sse_drained": true,
+  "shutdown_seconds": 1.3,
+  "exit_code": 143,
+  "oom_killed": false,
+  "shutdown_log_complete": true,
+  "status": "passed"
+}
